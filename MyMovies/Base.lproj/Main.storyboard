@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Hcq-ty-rVb" kind="modal" id="5OE-zE-fMG"/>
+                                    <segue destination="Hcq-ty-rVb" kind="modal" id="ccU-uR-69a"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kq-VI-ISe">
@@ -33,7 +33,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EcL-cv-qJg" kind="modal" id="C6T-jL-UIa"/>
+                                    <segue destination="EcL-cv-qJg" kind="modal" id="wda-VL-yog"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byp-Uz-Jfe">
@@ -43,7 +43,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2g3-Et-gTv" kind="modal" id="VQ5-0G-N2X"/>
+                                    <segue destination="2g3-Et-gTv" kind="modal" id="Kjx-24-Pyz"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKr-9r-k45">
@@ -59,13 +59,12 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="Trailer1" destination="dgP-UX-HVg" id="5c2-b2-2qu"/>
-                        <outlet property="Trailer3" destination="4kq-VI-ISe" id="ayv-q5-Whv"/>
+                        <outlet property="view" destination="kh9-bI-dsS" id="qUC-yh-B0O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-356" y="-586"/>
+            <point key="canvasLocation" x="-1088" y="-1478"/>
         </scene>
         <!--Trailer2 View Controller - Trailer 2-->
         <scene sceneID="aTq-ny-T2h">
@@ -86,7 +85,7 @@
                                     <navigationItem title="Scarface" id="IOy-t2-Be5">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="ohC-si-s8B">
                                             <connections>
-                                                <segue destination="vXZ-lx-hvc" kind="modal" id="ZHO-92-Vy6"/>
+                                                <segue destination="vXZ-lx-hvc" kind="modal" id="KTB-Mq-5oX"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -98,12 +97,12 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="view" destination="BOU-g2-dm3" id="Ry4-EP-gkB"/>
+                        <outlet property="view" destination="BOU-g2-dm3" id="aAR-79-R8b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qnt-Hg-slq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-671" y="759"/>
+            <point key="canvasLocation" x="-1088" y="-1053"/>
         </scene>
         <!--Trailer1 View Controller - Trailer 1-->
         <scene sceneID="k3p-jA-yqO">
@@ -125,7 +124,7 @@
                                         <barButtonItem key="backBarButtonItem" title="Back" id="d7m-Nv-74p"/>
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="yuL-9C-RtA">
                                             <connections>
-                                                <segue destination="vXZ-lx-hvc" kind="modal" id="dIy-1l-MAF"/>
+                                                <segue destination="vXZ-lx-hvc" kind="modal" id="IOp-ja-IgF"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -137,12 +136,12 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="view" destination="MYt-cB-9XG" id="rVA-bI-PHW"/>
+                        <outlet property="view" destination="MYt-cB-9XG" id="XkA-OJ-Oca"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x9z-yc-0l9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="299" y="406"/>
+            <point key="canvasLocation" x="-381" y="-1518"/>
         </scene>
         <!--Trailer3 View Controller - Trailer 3-->
         <scene sceneID="OcC-g6-umx">
@@ -164,7 +163,7 @@
                                         <barButtonItem key="backBarButtonItem" title="Back" id="1vQ-ce-XFu"/>
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="hbU-yd-co3">
                                             <connections>
-                                                <segue destination="vXZ-lx-hvc" kind="modal" id="omZ-m0-l28"/>
+                                                <segue destination="vXZ-lx-hvc" kind="modal" id="bml-RN-pYV"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -176,12 +175,12 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="view" destination="QUq-GZ-5Ch" id="wVc-Zz-pya"/>
+                        <outlet property="view" destination="QUq-GZ-5Ch" id="Twq-Cn-xex"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CpG-ju-ied" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-389" y="-1319"/>
+            <point key="canvasLocation" x="-357" y="-1037"/>
         </scene>
     </scenes>
     <resources>
@@ -195,6 +194,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="omZ-m0-l28"/>
+        <segue reference="IOp-ja-IgF"/>
     </inferredMetricsTieBreakers>
 </document>

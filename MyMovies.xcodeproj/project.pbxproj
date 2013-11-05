@@ -28,6 +28,9 @@
 		0DB2B36C1828630500A3F0FA /* Trailer1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2B36B1828630500A3F0FA /* Trailer1ViewController.m */; };
 		0DB2B36F1828632000A3F0FA /* Trailer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2B36E1828632000A3F0FA /* Trailer2ViewController.m */; };
 		0DB2B3721828633700A3F0FA /* Trailer3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2B3711828633700A3F0FA /* Trailer3ViewController.m */; };
+		0DB2B3761828768200A3F0FA /* Trailer1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0DB2B3731828768200A3F0FA /* Trailer1.mp4 */; };
+		0DB2B3771828768200A3F0FA /* Trailer2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0DB2B3741828768200A3F0FA /* Trailer2.mp4 */; };
+		0DB2B3781828768200A3F0FA /* Trailer3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0DB2B3751828768200A3F0FA /* Trailer3.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,15 +67,15 @@
 		0DB2B3611828600B00A3F0FA /* Trailer3Pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trailer3Pic.jpg; sourceTree = "<group>"; };
 		0DB2B3621828600B00A3F0FA /* Trailer1Pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trailer1Pic.jpg; sourceTree = "<group>"; };
 		0DB2B3631828600B00A3F0FA /* Trailer2pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trailer2pic.jpg; sourceTree = "<group>"; };
-		0DB2B3671828606C00A3F0FA /* Trailer2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trailer2.mp4; sourceTree = "<group>"; };
-		0DB2B3681828606C00A3F0FA /* Trailer1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trailer1.mp4; sourceTree = "<group>"; };
-		0DB2B3691828606C00A3F0FA /* Trailer3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trailer3.mp4; sourceTree = "<group>"; };
 		0DB2B36A1828630500A3F0FA /* Trailer1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trailer1ViewController.h; sourceTree = "<group>"; };
 		0DB2B36B1828630500A3F0FA /* Trailer1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trailer1ViewController.m; sourceTree = "<group>"; };
 		0DB2B36D1828632000A3F0FA /* Trailer2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trailer2ViewController.h; sourceTree = "<group>"; };
 		0DB2B36E1828632000A3F0FA /* Trailer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trailer2ViewController.m; sourceTree = "<group>"; };
 		0DB2B3701828633700A3F0FA /* Trailer3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trailer3ViewController.h; sourceTree = "<group>"; };
 		0DB2B3711828633700A3F0FA /* Trailer3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trailer3ViewController.m; sourceTree = "<group>"; };
+		0DB2B3731828768200A3F0FA /* Trailer1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trailer1.mp4; sourceTree = "<group>"; };
+		0DB2B3741828768200A3F0FA /* Trailer2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trailer2.mp4; sourceTree = "<group>"; };
+		0DB2B3751828768200A3F0FA /* Trailer3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trailer3.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		0DB2B31B18285F8D00A3F0FA = {
 			isa = PBXGroup;
 			children = (
+				0DB2B36018285FF200A3F0FA /* Images */,
 				0DB2B35E18285FD900A3F0FA /* Trailers */,
 				0DB2B32D18285F8D00A3F0FA /* MyMovies */,
 				0DB2B34C18285F8D00A3F0FA /* MyMoviesTests */,
@@ -149,7 +153,9 @@
 		0DB2B32E18285F8D00A3F0FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0DB2B36018285FF200A3F0FA /* Images */,
+				0DB2B3731828768200A3F0FA /* Trailer1.mp4 */,
+				0DB2B3741828768200A3F0FA /* Trailer2.mp4 */,
+				0DB2B3751828768200A3F0FA /* Trailer3.mp4 */,
 				0DB2B35F18285FEA00A3F0FA /* Movies */,
 				0DB2B33018285F8D00A3F0FA /* InfoPlist.strings */,
 				0DB2B32F18285F8D00A3F0FA /* MyMovies-Info.plist */,
@@ -193,9 +199,6 @@
 		0DB2B35F18285FEA00A3F0FA /* Movies */ = {
 			isa = PBXGroup;
 			children = (
-				0DB2B3671828606C00A3F0FA /* Trailer2.mp4 */,
-				0DB2B3681828606C00A3F0FA /* Trailer1.mp4 */,
-				0DB2B3691828606C00A3F0FA /* Trailer3.mp4 */,
 			);
 			name = Movies;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				0DB2B3631828600B00A3F0FA /* Trailer2pic.jpg */,
 			);
 			name = Images;
+			path = MyMovies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +291,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB2B3771828768200A3F0FA /* Trailer2.mp4 in Resources */,
 				0DB2B3641828600B00A3F0FA /* Trailer3Pic.jpg in Resources */,
 				0DB2B34018285F8D00A3F0FA /* Images.xcassets in Resources */,
+				0DB2B3781828768200A3F0FA /* Trailer3.mp4 in Resources */,
 				0DB2B33218285F8D00A3F0FA /* InfoPlist.strings in Resources */,
+				0DB2B3761828768200A3F0FA /* Trailer1.mp4 in Resources */,
 				0DB2B3651828600B00A3F0FA /* Trailer1Pic.jpg in Resources */,
 				0DB2B33B18285F8D00A3F0FA /* Main.storyboard in Resources */,
 				0DB2B3661828600B00A3F0FA /* Trailer2pic.jpg in Resources */,
@@ -525,6 +532,7 @@
 				0DB2B35818285F8D00A3F0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DB2B35918285F8D00A3F0FA /* Build configuration list for PBXNativeTarget "MyMoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +541,7 @@
 				0DB2B35B18285F8D00A3F0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

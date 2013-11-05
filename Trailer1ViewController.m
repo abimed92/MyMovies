@@ -43,7 +43,7 @@
     {
         //Change to match you video filename in supporting files
         NSString *url = [[NSBundle mainBundle]
-                         pathForResource:@"Movies/Trailer1"
+                         pathForResource:@"Trailer1"
                          ofType:@"mp4"];
         
         player = [[MPMoviePlayerController alloc]
